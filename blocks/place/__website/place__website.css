@@ -1,0 +1,23 @@
+.place__website {
+  margin: 0;
+  align-self: end;
+  height: max-content;
+}
+
+.place__website a {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  width: max-content;
+  color: white;
+}
+
+.place__website p {
+  color: #AAAAAA;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  margin: 0;
+  margin-bottom: 12px;
+}
