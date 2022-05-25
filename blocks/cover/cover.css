@@ -1,4 +1,8 @@
 .cover {
   max-width: 1184px;
+  min-height: 740px;
   margin: 0 auto;
+  margin-top: 92px;
+  background-image: url('../../images/cover-trains.jpg');
+  background-size: cover;
 }
