@@ -3,7 +3,7 @@
   margin: 0 auto;
   margin-top: 80px;
   display: grid;
-  grid-template-columns: minmax(auto, 460px) minmax(auto, 484px);
+  grid-template-columns: minmax(400px, 460px) minmax(428px, 484px);
   gap: 48px 40px;
 }
 
