@@ -1,5 +1,5 @@
 .place {
-  max-width: 100%;
+  max-width: 984px;
   margin-top: 80px;
   display: grid;
   grid-template-columns: minmax(460px, auto) minmax(484px, auto);
