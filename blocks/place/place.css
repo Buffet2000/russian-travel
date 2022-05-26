@@ -1,8 +1,9 @@
 .place {
   max-width: 984px;
+  margin: 0 auto;
   margin-top: 80px;
   display: grid;
-  grid-template-columns: minmax(460px, auto) minmax(484px, auto);
+  grid-template-columns: minmax(auto, 460px) minmax(auto, 484px);
   gap: 48px 40px;
 }
 
