@@ -14,3 +14,21 @@
 .place__paragraph p:nth-child(1) {
   margin-top: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    margin: 0;
+  }
+  
+  .place__paragraph p {
+    margin: 0;
+    margin-top: 26px;
+  }
+  
+  .place__paragraph p:nth-child(1) {
+    margin-top: 0;
+  }
+}
