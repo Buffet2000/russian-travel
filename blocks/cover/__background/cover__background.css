@@ -1,5 +1,7 @@
 .cover__background {
-  max-width: 1184px;
+  max-width: 100%;
   min-height: 740px;
+  margin: 0;
   background-color: rgba(0, 0, 0, 0.3);
+  background-size: cover;
 }
