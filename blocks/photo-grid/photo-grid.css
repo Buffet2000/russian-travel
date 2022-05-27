@@ -8,3 +8,16 @@
   margin-right: 48px;
   margin-top: 92px;
 }
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    max-width: 928px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin: 0;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-top: 92px;
+  }
+}
