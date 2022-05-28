@@ -1,6 +1,16 @@
 .cover__background {
-  max-width: 1184px;
+  max-width: 100%;
+  padding-top: 62.5%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: url(../../../images/cover-trains.jpg) no-repeat 100% /cover, rgba(0, 0, 0, 0.3);
   background-blend-mode: multiply;
   margin: 0 auto;
+  /*max-width: 1184px;
+  background: url(../../../images/cover-trains.jpg) no-repeat center /cover, rgba(0, 0, 0, 0.3);
+  background-blend-mode: multiply;
+  margin: 0 auto;*/
 }

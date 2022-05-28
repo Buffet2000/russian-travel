@@ -1,10 +1,13 @@
 .cover__title {
   max-width: 560px;
+  width: 100%;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
   text-align: center;
   margin: 0 auto;
-  margin-bottom: 32px;
-  padding-top: 245px;
+  position: absolute;
+  left: auto;
+  right: auto;
+  top: 245px;
 }
