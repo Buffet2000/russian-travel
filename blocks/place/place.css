@@ -1,25 +1,15 @@
 .place {
+  width: 1fr;
   margin: 0 auto;
   margin-top: 80px;
-  display: grid;
-  grid-template-columns: minmax(auto, 460px) 1fr;
-  gap: 48px 40px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .place:nth-of-type(1) {
   margin-top: 92px;
 }
 
-@media screen and (max-width: 1024px) {
-  .place {
-    margin: 0 auto;
-    margin-top: 80px;
-    display: grid;
-    grid-template-columns: 440px 1fr;
-    gap: 48px 40px;
-  }
-  
   .place:nth-of-type(1) {
     margin-top: 92px;
   }
-}

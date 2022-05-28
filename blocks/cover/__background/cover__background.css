@@ -1,6 +1,6 @@
 .cover__background {
-  margin: 0;
-  background-image: url(../../../images/cover-trains.jpg);
-  background-color: rgba(0, 0, 0, 0.3);
-  background-size: cover;
+  background: url('/images/cover-trains.jpg') no-repeat 100% /cover, rgba(0, 0, 0, 0.3);
+  background-blend-mode: multiply;
+  margin: 0 auto;
+  padding-bottom: auto;
 }
