@@ -1,5 +1,5 @@
 .cover__background {
-  background: url(/images/cover-trains.jpg) no-repeat 100% /cover, rgba(0, 0, 0, 0.3);
+  background: url(../../../images/cover-trains.jpg) no-repeat 100% /cover, rgba(0, 0, 0, 0.3);
   background-blend-mode: multiply;
   margin: 0 auto;
   padding-bottom: auto;
