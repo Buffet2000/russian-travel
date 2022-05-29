@@ -2,7 +2,7 @@
 	max-width: 1184px;
 	display: flex;
 	flex-wrap: nowrap;
-	align-items: center;
+	/*align-items: center;*/
 	margin: 0 48px;
 	margin-top: 92px;
 	padding-bottom: 24px;
@@ -17,7 +17,14 @@
 	}
 }
 
-@media (max-width: 320px) {
+@media (min-width: 701px) and (max-width: 768px) {
+	.footer {
+		width: calc(100% - 48px);
+		padding-top: 88px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 700px) {
   .footer {
     max-width: 186px;
     margin: 0 auto;
@@ -25,5 +32,6 @@
     margin-top: 64px;
 		flex-direction: column;
 		flex-wrap: wrap;
+		text-align: start;
   }
 }

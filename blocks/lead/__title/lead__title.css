@@ -7,12 +7,11 @@
   text-align: center;
 }
 
-@media (max-width: 320px) {
-  .place__paragraph {
+@media (min-width: 320px) and (max-width: 700px) {
+  .lead__title {
     max-width: 288px;
     font-size: 40px;
     line-height: 44px;
-    font-weight: 900;
   }
 }
 
