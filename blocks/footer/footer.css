@@ -1,5 +1,6 @@
 .footer {
 	max-width: 1184px;
+	width: 100%;
 	display: flex;
 	flex-wrap: nowrap;
 	/*align-items: center;*/
