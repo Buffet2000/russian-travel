@@ -6,5 +6,16 @@
   text-align: center;
   margin: 0 auto;
   position: absolute;
-  /*padding-bottom: 245px;*/
+  left: auto;
+  right: auto;
+  top: 429px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .cover__subtitle {
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 16px;
+    top: 119px;
+  }
 }

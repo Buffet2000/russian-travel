@@ -1,8 +1,29 @@
 .footer {
+	max-width: 1184px;
 	display: flex;
 	flex-wrap: nowrap;
 	align-items: center;
 	margin: 0 48px;
 	margin-top: 92px;
 	padding-bottom: 24px;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+	.footer {
+		width: calc(100% - 96px);
+		margin: 0 auto;
+		padding-bottom: 24px;
+		margin-top: 92px;
+	}
+}
+
+@media (max-width: 320px) {
+  .footer {
+    max-width: 186px;
+    margin: 0 auto;
+		margin-left: 16px;
+    margin-top: 64px;
+		flex-direction: column;
+		flex-wrap: wrap;
+  }
 }
