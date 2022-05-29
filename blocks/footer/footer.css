@@ -4,7 +4,7 @@
 	display: flex;
 	flex-wrap: nowrap;
 	/*align-items: center;*/
-	margin: 0 48px;
+	margin: 0 auto;
 	margin-top: 92px;
 	padding-bottom: 24px;
 }
