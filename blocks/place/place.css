@@ -11,10 +11,10 @@
   margin-top: 0;
 }
 
-@media (min-width: 540px) and (max-width: 1280px) {
+@media (min-width: 539px) and (max-width: 1024px) {
   .place {
-    width: 100%;
-    grid-template-columns: minmax(250px, 440px) minmax(263px, 456px);
+    max-width: 100%;
+    grid-template-columns: minmax(225px, 440px) minmax(237px, 456px);
     gap: 48px 32px;
 
   }

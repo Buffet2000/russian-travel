@@ -7,6 +7,7 @@
   max-height: max-content;
   align-self: baseline;
   margin: 0;
+  align-self: end;
 }
 
 @media (min-width: 321px) and (max-width: 1023px) {

@@ -7,7 +7,6 @@
 }
 
 .place__paragraph p {
-  width: 100%;
   text-align: start;
   margin: 0;
   margin-top: 26px;
@@ -23,9 +22,16 @@
     font-size: 16px;
     line-height: 163%;
   }
+}
 
+  @media (max-width: 540px) {
   .place__paragraph p {
     margin-top: 25px;
+  }
+
+
+  .place__paragraph p:nth-child(1) {
+    margin-top: 32px;
   }
 }
 
