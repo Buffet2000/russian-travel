@@ -21,3 +21,8 @@
   margin: 0;
   margin-bottom: 12px;
 }
+@media (max-width: 767px) {
+  .place__website {
+    margin: 32px 16px;
+  }
+}

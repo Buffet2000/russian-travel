@@ -3,7 +3,7 @@
   max-width: calc(100% - 96px);
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   box-sizing: content-box;
 }
 @media (min-width: 769px) and (max-width: 1024px) {
