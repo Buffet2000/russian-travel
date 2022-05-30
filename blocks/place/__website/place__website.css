@@ -13,6 +13,10 @@
   color: white;
 }
 
+.place__website a:hover {
+  opacity: 0.8;
+}
+
 .place__website p {
   color: #AAAAAA;
   font-weight: 400;
@@ -21,6 +25,7 @@
   margin: 0;
   margin-bottom: 12px;
 }
+
 @media (max-width: 767px) {
   .place__website {
     margin: 32px 16px 16px;
