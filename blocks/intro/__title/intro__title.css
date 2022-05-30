@@ -4,3 +4,10 @@
   font-weight: 900;
   margin: 0;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .intro__title {
+    line-height: 35px;
+    font-size: 32px;
+  }
+}
