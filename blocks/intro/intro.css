@@ -4,14 +4,14 @@
   margin-left: 148px;
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .intro {
     margin: 88px auto;
     margin-left: 48px;
   }
 }
 
-@media (min-width: 321px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .intro {
     width: calc(100% - 32px);
     margin: 64px auto;
@@ -21,6 +21,5 @@
 @media (max-width: 320px) {
   .intro {
     width: calc(100% - 28px);
-    margin: 64px auto;
   }
 }
