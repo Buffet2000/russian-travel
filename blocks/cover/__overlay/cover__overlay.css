@@ -1,14 +1,5 @@
 .cover__overlay {
   width: calc(100% - 96px);
-  position: absolute;
-  top: 0; 
-	bottom: 0;
-	right: 0;
-	left: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 	margin: 0 auto;
   text-decoration: none;
   z-index: 2;

@@ -11,6 +11,7 @@
 		line-height: 16px;
 		font-size: 12px;
 		margin: 0;
+		margin-left: 0;
 	}
 }
 
@@ -19,5 +20,6 @@
 		line-height: 14px;
 		font-size: 14px;
 		margin-top: 48px;
+		margin-left: 0;
 	}
 }
