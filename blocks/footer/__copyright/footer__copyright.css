@@ -7,7 +7,7 @@
 	margin-left: auto;
 }
 
-@media (min-width: 500px) and (max-width: 550px) {
+@media (max-width: 550px) {
 	.footer__copyright {
 		line-height: 16px;
 		font-size: 12px;
@@ -20,6 +20,6 @@
 		line-height: 14px;
 		font-size: 14px;
 		margin-top: 48px;
-		margin-left: 0; /*Тут не дубль, если его убрать, то появится левый отступ. Предыдущий запрос заканчивает свою работу (стоит minmax), когда этот начинает.*/
+		/*Понял о чём речь. Когда постепенно добавляешь параметры, то теряешь нить, где как работает и как перезаписывается. :)*/
 	}
 }
