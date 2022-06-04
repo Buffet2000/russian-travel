@@ -1,5 +1,5 @@
 .cover__overlay {
 	margin: 0 auto;
   text-decoration: none;
-	z-index: 100; /*Я дико тупил. Я пробовал без .cover > *, но я z-index задавал в title и subtitle и у меня, естественно, ничего не работало... :)*/
+	z-index: 100;
 }

@@ -1,5 +1,5 @@
 .intro {
-  width: calc(100% - 590px);
+  max-width: calc(100% - 590px);
   margin: 92px auto;
   margin-left: 148px;
 }
@@ -14,14 +14,14 @@
 
 @media (max-width: 768px) {
   .intro {
-    width: calc(100% - 48px);
+    max-width: calc(100% - 48px);
     margin: 88px auto;
   }
 }
 
 @media (max-width: 320px) {
   .intro {
-    width: calc(100% - 28px);
+    max-width: calc(100% - 32px); /*Здесь тоже было не правильно) Исправил!*/
     margin-top: 64px;
   }
 }
